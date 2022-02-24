@@ -16,6 +16,6 @@ module.exports = {
       .setColor('#0099ff')
       .setTitle('Commands')
       .setDescription('')
-    message.channel.send(messageEmbed)
+    message.channel.send{ embeds: [embed] }
 	},
 };
