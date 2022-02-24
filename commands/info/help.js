@@ -15,7 +15,8 @@ module.exports = {
     const messageEmbed = new MessageEmbed()
       .setColor('#0099ff')
       .setTitle('Commands')
-      .setDescription('')
-    message.channel.send(messageEmbed)
+      .setDescription('37th attempt')
+      .addfield(category,command)
+    message.channel.send{ embeds: [embed] }
 	},
 };
